@@ -1,0 +1,152 @@
+//Page 1
+//Page 2
+// Number Of Rabbits
+5
+
+// Number Of Cats
+4
+
+// Number Of Turtles
+3
+
+//: Then you could copy those numbers onto new lines of code and let the playground do some math for you, like this:
+// Total Number Of Animals
+5 + 4 + 3
+
+// Total Number Of Mammals
+5 + 4
+
+//Page 3
+// Number Of Rabbits
+6
+
+// Number Of Cats
+5
+
+// Number Of Turtles
+2
+
+// Number Of Hamsters
+1
+
+// Total Number Of Animals
+6 + 5 + 2 + 1
+
+// Total Number Of Mammals
+6 + 5 + 1
+
+//Page 4
+let numberOfRabbits = 6
+
+let numberOfCats = 5
+
+let numberOfTurtles = 2
+
+let numberOfHamsters = 1
+//: After you’ve defined a constant and assigned a value to it, you can use the constant wherever you would have used the value, including in mathematical calculations that define the value of yet another constant:
+ 
+let totalNumberOfAnimals = numberOfRabbits + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfRabbits + numberOfCats + numberOfHamsters
+
+//Page 5
+//Page 6
+let numberOfRabbits = 6
+
+let numberOfCats = 5
+
+let numberOfTurtles = 2
+
+let numberOfHamsters = 1
+//: After you’ve defined a constant and assigned a value to it, you can use the constant wherever you would have used the value, including in mathematical calculations that define the value of yet another constant:
+ 
+let totalNumberOfAnimals = numberOfRabbits + numberOfCats + numberOfTurtles + numberOfHamsters
+
+let totalNumberOfMammals = numberOfRabbits + numberOfCats + numberOfHamsters
+
+//Page 7
+let 🐰 = 8
+let 🐱 = 4
+let 🐹 = 2
+let 🐢 = 3
+let 🐍 = 1
+let 🐴 = 1
+let 🐟 = 1
+
+let totalNumberOfAnimals = 🐰 + 🐱 + 🐹 + 🐢 + 🐍 + 🐴 + 🐟
+
+let totalNumberOfMammals = 🐰 + 🐱 + 🐹 + 🐴
+
+//Page 8
+let numberOfRabbits = 101
+
+//Page 9
+//Page 10
+// Number Of Tickets
+150
+
+// Ticket Price
+10
+
+// Room Rental Fee
+1000
+
+// Poster Cost
+40
+
+// Total Ticket Value
+150 * 10
+
+// Total Expenses
+1000 + 40
+
+// Total Income Of Show
+(150 * 10) - (1000 + 40)
+/*:
+ - callout(Exercise): Using the code above as a reference, use `let` statements to define constants to better solve your friend’s problem.\
+Add your code below. To help you get started, the constant `numberOfTickets` is already defined.
+ */
+let numberOfTickets = 150
+
+//Page 11
+// Values you should edit
+let ticketsSold = 1000
+let ticketPrice = 1
+let printingCosts = 20
+let advertising = 50
+/*:
+ - callout(Exercise): You’ve done enough work for free for your friend. In return for your help on this venture, your friend will give you a tenth of the profits. The jackpot is half of the total ticket sales money. Try changing the numbers above - tickets sold, ticket price, printing costs, or advertising costs  - and see if you can get your cut up to 100 or more.
+
+ The calculations below are fixed, but you can change the results by changing the numbers above:
+ */
+// Total takings
+let totalTakings = ticketPrice * ticketsSold
+
+// Jackpot
+let jackpot = totalTakings / 2
+
+// Expenses
+let totalExpenses = printingCosts + advertising
+
+// Profit
+let profit = totalTakings - jackpot - totalExpenses
+
+// Distribution
+let programmersCut = profit / 10 // This is the answer you want to get > 100! 👉 
+let friendsCut = profit - programmersCut
+
+//Page 13
+let brushTeeth = 3
+
+//Page 14
+let oc = 14
+let wc = 3
+let ow = 100
+let ww = 200
+let to = oc * ow
+let tw = wc * ww
+let ttl = to + tw
+let es = ttl / 2
+let lhso = es / ow
+let rhso = oc - lhso
+
