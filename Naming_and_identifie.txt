@@ -9,14 +9,12 @@
 // Number Of Turtles
 3
 
-//: Then you could copy those numbers onto new lines of code and let the playground do some math for you, like this:
 // Total Number Of Animals
 5 + 4 + 3
 
 // Total Number Of Mammals
 5 + 4
 
-//Page 3
 // Number Of Rabbits
 6
 
@@ -32,8 +30,7 @@
 // Total Number Of Animals
 6 + 5 + 2 + 1
 
-// Total Number Of Mammals
-6 + 5 + 1
+//Page 3
 
 //Page 4
 let numberOfRabbits = 6
@@ -43,11 +40,25 @@ let numberOfCats = 5
 let numberOfTurtles = 2
 
 let numberOfHamsters = 1
-//: After you’ve defined a constant and assigned a value to it, you can use the constant wherever you would have used the value, including in mathematical calculations that define the value of yet another constant:
  
 let totalNumberOfAnimals = numberOfRabbits + numberOfCats + numberOfTurtles + numberOfHamsters
 
 let totalNumberOfMammals = numberOfRabbits + numberOfCats + numberOfHamsters
+
+// Number Of Rabbits
+7
+
+// Number Of Cats
+4
+
+// Number Of Turtles
+1
+
+// Number Of Hamsters
+2
+
+// Total Number Of Animals
+7 + 4 + 1 + 2
 
 //Page 5
 //Page 6
@@ -58,12 +69,17 @@ let numberOfCats = 5
 let numberOfTurtles = 2
 
 let numberOfHamsters = 1
-//: After you’ve defined a constant and assigned a value to it, you can use the constant wherever you would have used the value, including in mathematical calculations that define the value of yet another constant:
  
 let totalNumberOfAnimals = numberOfRabbits + numberOfCats + numberOfTurtles + numberOfHamsters
 
 let totalNumberOfMammals = numberOfRabbits + numberOfCats + numberOfHamsters
 
+
+let numberofpig = 1
+
+let numberoffish = 1
+
+let numberofsnake = 1
 //Page 7
 let 🐰 = 8
 let 🐱 = 4
