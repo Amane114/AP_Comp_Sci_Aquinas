@@ -7,12 +7,22 @@ startSimulation()
 //numberOfAnts = 2
 //antSpeed = 150
 
+
+numberOfAnts = 11
+antSpeed = 160
+
 //Page 4
 startSimulation()
 //environmentCellSize = 10
 //numberOfAnts = 100
 //pheromoneEvaporationRate = 50
 //pheromoneDepositRate = 400
+
+
+environmentCellSize = 12
+numberOfAnts = 101
+pheromoneEvaporationRate = 55
+pheromoneDepositRate = 400
 
 //Page 5
 startSimulation()
@@ -25,4 +35,21 @@ startSimulation()
 //numberOfAnts = 20
 //antSpeed = 150
 
+
+homePheromoneDepositRate = 110
+foodPheromoneDepositRate = 110
+homePheromoneEvaporationRate = 55
+foodPheromoneEvaporationRate = 60
+environmentCellSize = 100
+numberOfAnts = 100
+numberOfAnts = 20
+antSpeed = 150
+
 //Page 6
+//Depends on the num you set.
+//When a one of the num is too much which make no sence.
+//The speed of ants.
+//I can change the speed.
+//Yes. We need ants. But it may makes wrong if there're too much.
+//I can change the numm about environment.
+//No that it.
