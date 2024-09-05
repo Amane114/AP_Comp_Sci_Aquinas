@@ -1,0 +1,104 @@
+//Page 1
+let city = "Paris"
+
+//Page 2
+//Constants
+//Constants
+//Variables
+//Constants
+//Constants
+//Variables
+
+//Page 3
+// Declaring a constant
+let placeOfBirth = "New Jersey"
+
+// Declaring a variable
+var currentLocation = "New Jersey"
+
+// Assigning a new value to a variable
+currentLocation = "California"
+
+
+//EXPERIMENT:
+// Assign a new value
+currentLocation = "Los_Angles
+
+//Page 4
+var score = 0
+//: If the player scores ten points, you can update the score:
+score = 10
+//: Now the player scores another five points, so you can update the score again:
+score = 15
+//: This is nice, but it would be nicer to use the existing value of `score` when calculating the new value. To add another five points, you can do this:
+score = score + 5
+score + 5
+score
+score + 3
+score
+//: But when a calculation is on the right side of an assignment, the variable stores the calculation's result and takes on a brand new value:
+score = score + 5
+score = score + 3
+
+
+//EXPERIMENT:
+score = 10 //10
+score = score + score //20
+
+//Page 5
+// Value is initially zero
+var score = 0
+
+// Take the current value of `score`, add 2, assign the result to `score` as its new value
+score = score + 2
+
+var greeting = ""
+greeting += "Hello"
+greeting += " "
+greeting += "World"
+
+//EXPERIMENT
+let word1 = "Compound"
+let word2 = "assignment"
+let word3 = "is"
+let word4 = "useful"
+let space = " "
+
+var statement = ""
+statement += word1
+print(word1, word2, word3, word4)
+
+//Page 6
+//Very low probabilit.
+//Yes.
+
+//Page 7
+let name = "Johnny"
+name = "John"
+//FIX-IT
+let name = "John"
+
+//Page 8
+let name = "John"
+
+//Page9
+var friendBeverageChoice = "coffee"
+
+driveAcrossTown()
+buyACoffeeMaker()
+//:  Depending how long you're gone, you have no way of knowing whether your friend will change their mind before you get back.
+friendBeverageChoice = "tea"
+
+findCoffeeGrinder()
+
+friendBeverageChoice = "water"
+friendBeverageChoice = "sparkling water"
+friendBeverageChoice = "plain water"
+
+findCoffeeBeans()
+driveHome()
+setUpCoffeeGrinder()
+
+friendBeverageChoice = "nothing 😴"
+grindBeans()
+makeFriendDrinkCoffee()
