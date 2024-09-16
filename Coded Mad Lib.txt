@@ -1,0 +1,67 @@
+// Prompt the user to fill in the blanks
+print("Enter your words to fill in the blanks:")
+
+// Collecting inputs for the Mad Libs
+print("Adjective:")
+let adjective1 = readLine()!
+
+print("Adjective (for family):")
+let adjective2 = readLine()!
+
+print("Noun (place):")
+let noun1 = readLine()!
+
+print("Noun (another place):")
+let noun2 = readLine()!
+
+print("Plural Noun:")
+let pluralNoun1 = readLine()!
+
+print("Game:")
+let game = readLine()!
+
+print("Plural Noun (another):")
+let pluralNoun2 = readLine()!
+
+print("Verb ending in 'ing' (1):")
+let verb1 = readLine()!
+
+print("Verb ending in 'ing' (2):")
+let verb2 = readLine()!
+
+print("Plural Noun (for food):")
+let pluralNoun3 = readLine()!
+
+print("Verb ending in 'ing' (for mothers):")
+let verb3 = readLine()!
+
+print("Noun (something to fall in):")
+let noun3 = readLine()!
+
+print("Plant:")
+let plant = readLine()!
+
+print("Part of the body:")
+let bodyPart = readLine()!
+
+print("Place (for future trip):")
+let place = readLine()!
+
+print("Verb ending in 'ing' (something to practice):")
+let verb4 = readLine()!
+
+print("Adjective (describing parents):")
+let adjective3 = readLine()!
+
+print("Number (hours):")
+let number = readLine()!
+
+print("Plural Noun (for money):")
+let pluralNoun4 = readLine()!
+
+// Print the completed Mad Libs story
+print("\nA vacation is when you take a trip to some \(adjective1) place with your \(adjective2) family. Usually, you go to some place that is near a/an \(noun1) or up on a/an \(noun2). A good vacation place is one where you can ride \(pluralNoun1) or play \(game) or go hunting for \(pluralNoun2). I like to spend my time \(verb1) or \(verb2).")
+
+print("\nWhen parents go on a vacation, they spend their time eating three \(pluralNoun3) a day, and fathers play golf, and mothers sit around \(verb3). Last summer, my little brother fell in a/an \(noun3) and got poison \(plant) all over his \(bodyPart). My family is going to go to (the) \(place), and I will practice \(verb4).")
+
+print("\nParents need vacations more than kids because parents are always very \(adjective3) and because they have to work \(number) hours every day all year making enough \(pluralNoun4) to pay for the vacation.")
