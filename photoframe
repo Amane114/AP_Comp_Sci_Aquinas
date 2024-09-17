@@ -1,0 +1,24 @@
+import UIKit
+
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+
+    @IBOutlet weak var imageView: UIImageView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    @IBAction func selectImage(_ sender: UIButton) {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.delegate = self
+        imagePickerController.sourceType = .photoLibrary
+        present(imagePickerController, animated: true, completion: nil)
+    }
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            imageView.image = pickedImage
+        }
+        dismiss(animated: true, completion: nil)
+    }
+}
