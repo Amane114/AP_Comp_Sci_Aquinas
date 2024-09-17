@@ -51,3 +51,80 @@ let firstName = "Tim"
 let city = "Cupertino"
 
 let welcomeString = "Hello \(firstName), welcome to \(city)"
+
+
+let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
+
+let tableOneResponse = "Yes, thank you!"
+ 
+let customerOrderFour = "돌솥비빔밥"
+let customerOrderFive = "Pasztecik szczeciński"
+let customerOrderSix = "小笼包"
+let serverResponseToTableTwo = "Let me make sure I've got this right: <Enter the order here>"
+
+let tableTwoResponse = "Perfect, merci bien."
+//Page 16
+let schoolName = "YOUR SCHOOL NAME"
+let refrain = "hmm hmm HMMM hm-hmm \(schoolName) hmm hmm HMMMMM"
+
+let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
+//Page 17
+// Phone's storage capacity in gigabytes (GB)
+let phoneStorageGB = 64
+
+// Convert phone storage to megabytes (MB)
+let phoneStorageMB = phoneStorageGB * 1024
+
+// Storage size required for one minute of video in megabytes (MB)
+let videoPerMinuteMB = 100
+
+// Calculate how many minutes of video can be stored
+let minutesOfVideo = phoneStorageMB / videoPerMinuteMB
+
+// Create the result string using string interpolation
+let resultMessage = "You can record \(minutesOfVideo) more minutes of video."
+
+// Print the result
+print(resultMessage)
+//Page 18
+"Hello, world!"
+print("Hello, world!")
+8
+print(8)
+7 + 11
+print(7 + 11)
+"Have you seen" + "..." + "nevermind."
+print("Have you seen" + "..." + "nevermind.")
+let authorName = "Beatrix Potter"
+print(authorName)
+let bookTitle = "Jemima Puddleduck"
+print(bookTitle)
+var favoriteCookie = "chocolate chip"
+print("My favorite type of cookie is \(favoriteCookie).")
+favoriteCookie = "double chocolate chip"
+print("Wait! I forgot about \(favoriteCookie). That one is even better.")
+// Print a string literal
+print("Hello, world!")
+
+// Print a string expression
+print("Have you seen" + "..." + "nevermind.")
+
+// Print the result of a calculation
+print(7 + 11)
+
+// Define constants and print them
+let AuthorName = "JK"
+print(authorName)  // Output: JK
+
+// Define and print a variable
+var FavoriteCookie = "chocolate chip"
+print("My favorite type of cookie is \(favoriteCookie).")  // Output: My favorite type of cookie is chocolate chip.
+favoriteCookie = "double chocolate chip"
+print("Wait! I forgot about \(favoriteCookie). That one is even better.")  // Output: Wait! I forgot about double chocolate chip. That one is even better.
+
+// Define another constant and print it
+let BookTitle = "Harry Potter"
+print(bookTitle)  // Output: Harry Potter
+
+// Print a string with variables combined
+print("Did you know that \(bookTitle) was written by \(authorName)?")  // Output: Did you know that Harry Potter was written by JK?
