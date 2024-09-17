@@ -39,3 +39,15 @@ let likesYourPostMessage = "likes your post"
 
 // Concatenate strings by using the plus sign
 let finishedMessage = username + " " + likesYourPostMessage
+
+//Page7
+let fullName = "Johnny" + "Appleseed"
+let firstName = "Tara"
+let city = "Paris"
+let welcomeString = "Hello " + firstName + ", welcome to " + city + "!"
+
+//Page8
+let firstName = "Tim"
+let city = "Cupertino"
+
+let welcomeString = "Hello \(firstName), welcome to \(city)"
