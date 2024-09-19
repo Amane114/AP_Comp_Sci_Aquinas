@@ -102,3 +102,4 @@ setUpCoffeeGrinder()
 friendBeverageChoice = "nothing 😴"
 grindBeans()
 makeFriendDrinkCoffee()
+setupcoffeeGrinder()
