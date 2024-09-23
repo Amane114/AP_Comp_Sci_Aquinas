@@ -161,3 +161,46 @@ shoppingList += rice + newLine
 print(shoppingList)
 
 //Page 13
+//EXERCISES 
+var overallScore = 501
+var roundScore = 0
+
+// Function to simulate a dart throw (score can be 1 to 60 points, including doubles and triples)
+func throwDart() -> Int {
+    return Int.random(in: 1...60)  // Random dart score
+}
+
+for round in 1...5 {
+    // Reset round score at the start of each round
+    roundScore = 0
+
+    // Simulate three dart throws per round
+    for _ in 1...3 {
+        let dartScore = throwDart()
+        roundScore += dartScore
+    }
+
+    // Subtract round score from overall score
+    overallScore -= roundScore
+
+    // Print statements that opponents might say based on current score
+    if overallScore > 400 {
+        print("You're off to a slow start! Better luck next round.")
+    } else if overallScore > 200 {
+        print("You're starting to get the hang of it!")
+    } else if overallScore > 50 {
+        print("Whoa, you're catching up!")
+    } else {
+        print("Looks like you're getting ready to finish strong!")
+    }
+
+    // Reset round score for the next round
+    roundScore = 0
+}
+
+// Print final score and performance
+if overallScore <= 0 {
+    print("Congratulations! You've won the game.")
+} else {
+    print("Your final score is \(overallScore). Better luck next time!")
+}
